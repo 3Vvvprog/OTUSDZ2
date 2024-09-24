@@ -33,7 +33,6 @@
 		3B8872362C9C864700370CF9 /* JSONEncodingHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8872162C9C864700370CF9 /* JSONEncodingHelper.swift */; };
 		3B8872372C9C864700370CF9 /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B88721B2C9C864700370CF9 /* Validation.swift */; };
 		3B8872482C9EDC0D00370CF9 /* NewsProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8872472C9EDC0D00370CF9 /* NewsProtocol.swift */; };
-		3B88724E2C9F160500370CF9 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 3B88724D2C9F160500370CF9 /* Kingfisher */; };
 		3B8872512C9F161B00370CF9 /* CachedAsyncImage in Frameworks */ = {isa = PBXBuildFile; productRef = 3B8872502C9F161B00370CF9 /* CachedAsyncImage */; };
 /* End PBXBuildFile section */
 
@@ -93,7 +92,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B88724E2C9F160500370CF9 /* Kingfisher in Frameworks */,
 				3B8872512C9F161B00370CF9 /* CachedAsyncImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -211,7 +209,6 @@
 			);
 			name = OTUSDZ2;
 			packageProductDependencies = (
-				3B88724D2C9F160500370CF9 /* Kingfisher */,
 				3B8872502C9F161B00370CF9 /* CachedAsyncImage */,
 			);
 			productName = OTUSDZ2;
@@ -243,7 +240,6 @@
 			mainGroup = 3B8871AE2C9C703C00370CF9;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				3B88724C2C9F160500370CF9 /* XCRemoteSwiftPackageReference "Kingfisher" */,
 				3B88724F2C9F161B00370CF9 /* XCRemoteSwiftPackageReference "swiftui-cached-async-image" */,
 			);
 			preferredProjectObjectVersion = 77;
@@ -506,14 +502,6 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		3B88724C2C9F160500370CF9 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 8.0.3;
-			};
-		};
 		3B88724F2C9F161B00370CF9 /* XCRemoteSwiftPackageReference "swiftui-cached-async-image" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/lorenzofiamingo/swiftui-cached-async-image";
@@ -525,11 +513,6 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		3B88724D2C9F160500370CF9 /* Kingfisher */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 3B88724C2C9F160500370CF9 /* XCRemoteSwiftPackageReference "Kingfisher" */;
-			productName = Kingfisher;
-		};
 		3B8872502C9F161B00370CF9 /* CachedAsyncImage */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 3B88724F2C9F161B00370CF9 /* XCRemoteSwiftPackageReference "swiftui-cached-async-image" */;
